@@ -15,7 +15,7 @@ DB_SETTINGS = {
 
 def get_peaks():
     conn = psycopg2.connect(**DB_SETTINGS)
-    cur = conn.cursor
+    cur = conn.cursor()
     cur.execute("SELECT id, name, lat, lng, description, image_path FROM peaks")
     rows = cur.fetchall()
     cur.close()
