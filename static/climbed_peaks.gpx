@@ -15,7 +15,7 @@
   <wpt lat="43.12345" lon="20.12345">
     <ele>2015</ele>
     <time>2023-07-15T09:00:00Z</time>
-    <name><![CDATA[Midžor]]</name>
+    <name><![CDATA[Midžor]]></name>
     <desc>Climbed via the Bulgarian route</desc>
     <cmt>Great weather, no snow</cmt>
     <type>Peak</type>
@@ -27,5 +27,21 @@
   </wpt>
   
   Add more peaks below this line -->
+
+  <wpt lat="45.151066" lon="19.7115">
+    <ele>538</ele>
+    <time>2023-07-15T09:00:00Z</time>
+    <name><![CDATA[Crveni Čot]]></name>
+    <desc>Highest peak</desc>
+    <cmt>To climb</cmt>
+    <type>mountain:Fruska Gora</type>
+    <sym>Triangle, Red</sym>
+    <!--
+    <link href="https://example.com/midzor">
+      <text>Midžor Info</text>
+      <type>text/html</type>
+    </link>
+    -->
+  </wpt>
 
 </gpx>
