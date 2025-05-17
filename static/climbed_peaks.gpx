@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1"
+     creator="Andor Manual GPX"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1
+                         http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <name>Climbed Peaks</name>
+    <desc>A shared log of every peak we’ve climbed together — Katarina, Arsen, Istra, and Andor. Each summit holds a memory, and this file helps us keep them close, one climb at a time.</desc>
+  </metadata>
+
+  <!-- Example peak -->
+  <wpt lat="43.12345" lon="20.12345">
+    <ele>2015</ele>
+    <name>Midžor</name>
+    <desc>Climbed on 2023-07-15</desc>
+  </wpt>
+
+  <!-- Add more peaks below this line -->
+  <!--
+  <wpt lat="...">...</wpt>
+  -->
+
+</gpx>
